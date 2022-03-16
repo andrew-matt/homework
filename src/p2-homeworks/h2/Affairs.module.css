@@ -1,0 +1,40 @@
+.affairs {
+    display: flex;
+    margin-left: 10px;
+}
+
+.name {
+   width: 150px;
+}
+
+.priority {
+    width: 150px;
+}
+
+.delete {
+    background-color: lightsteelblue;
+    font-weight: bold;
+}
+
+.filter {
+    background-color: lightsteelblue;
+    font-weight: bold;
+    width: 60px;
+    margin: 0px 10px 0px 10px;
+}
+
+.active {
+    border: 3px solid mediumpurple;
+}
+
+.high {
+    color: darkred;
+}
+
+.middle {
+    color: darkgoldenrod;
+}
+
+.low {
+    color: green;
+}

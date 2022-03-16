@@ -1,0 +1,31 @@
+.content {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.input {
+    background-color: lightsteelblue;
+}
+
+.error {
+    border: 2px solid darkred;
+}
+
+.errorMessage {
+    display: flex;
+    color: darkred;
+}
+
+.addButton {
+    margin-left: 10px;
+    background-color: lightsteelblue;
+    font-weight: bold;
+    width: 50px;
+}
+
+.total {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkred;
+}

@@ -1,0 +1,12 @@
+.default {
+    margin: 5px 0px 5px 0px;
+    background-color: lightsteelblue;
+    font-weight: bold;
+    width: 70px;
+}
+
+.red {
+    background: darkred;
+    font-weight: bold;
+    width: 70px;
+}
