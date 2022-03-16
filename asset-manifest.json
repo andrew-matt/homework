@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/andrew-matt/homework/static/css/main.ceed4130.css",
+    "main.js": "/andrew-matt/homework/static/js/main.f9689e32.js",
+    "index.html": "/andrew-matt/homework/index.html",
+    "main.ceed4130.css.map": "/andrew-matt/homework/static/css/main.ceed4130.css.map",
+    "main.f9689e32.js.map": "/andrew-matt/homework/static/js/main.f9689e32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceed4130.css",
+    "static/js/main.f9689e32.js"
+  ]
+}
