@@ -1,0 +1,41 @@
+.link {
+    text-decoration: none;
+    margin: 10px;
+    color: lightsteelblue;
+}
+
+.link:hover {
+    color: orange;
+}
+
+.header {
+    width: 275px;
+    display: flex;
+    align-items: center;
+    transition-duration: 500ms;
+    transform: translate(-220px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0px);
+}
+
+.block {
+    padding-top: 5px;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.errorPage {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-size: 50px;
+    color: lightsteelblue;
+}
+
+.errNumber {
+    color: darkred;
+}
