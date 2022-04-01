@@ -32,21 +32,25 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 
     const onEnterCallback = () => {
         // setEditMode() // выключить editMode при нажатии Enter
+        setEditMode(false)
 
         onEnter && onEnter()
     }
     const onBlurCallback = (e: React.FocusEvent<HTMLInputElement>) => {
         // setEditMode() // выключить editMode при нажатии за пределами инпута
+        setEditMode(false)
 
         onBlur && onBlur(e)
     }
     const onDoubleClickCallBack = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
         // setEditMode() // включить editMode при двойном клике
+        setEditMode(true)
 
         onDoubleClick && onDoubleClick(e)
     }
 
     const spanClassName = `${'сделать красивый стиль для спана'} ${className}`
+    const image = <img src={'https://hvnlocal.com/wp-content/uploads/2018/03/edit_icon.png'} alt={'edit-span'} width={25} height={25}/>
 
     return (
         <>
@@ -65,7 +69,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                         className={spanClassName}
 
                         {...restSpanProps}
-                    >
+                    >{image}
                         {/*если нет захардкодженного текста для спана, то значение инпута*/}
                         {children || restProps.value}
                     </span>
