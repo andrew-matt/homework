@@ -1,6 +1,17 @@
 .people {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 300px;
     margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 5px;
+}
+
+.button {
+    width: 50px;
 }
