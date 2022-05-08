@@ -10,3 +10,9 @@
     font-weight: bold;
     width: 70px;
 }
+
+.clicked {
+    background-color: #24282d;
+    color: lightsteelblue;
+    border: 2px solid lightsteelblue;
+}
