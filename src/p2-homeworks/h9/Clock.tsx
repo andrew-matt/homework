@@ -28,10 +28,8 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = date.toLocaleTimeString()  // fix with date
-    const stringDate = date.toLocaleDateString() // fix with date
-
-    const dateStyle  = show ? {color: "mediumpurple"} : {color: "#24282d"}
+    const stringTime = date?.toLocaleTimeString() || <br/>  // fix with date
+    const stringDate = date?.toLocaleDateString() || <br/>  // fix with date
 
     return (
         <div>
@@ -42,14 +40,15 @@ function Clock() {
             >
                 {stringTime}
             </div>
-
-                <div style={dateStyle}>
+            {show ? (
+                <div>
                     {stringDate}
                 </div>
-
+            ) : (
+                <br/>
+            )}
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
-
         </div>
     )
 }

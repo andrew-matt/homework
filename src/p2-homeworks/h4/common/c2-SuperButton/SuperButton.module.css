@@ -3,6 +3,11 @@
     background-color: lightsteelblue;
     font-weight: bold;
     width: fit-content;
+    cursor: pointer;
+}
+
+.default:hover {
+    opacity: 0.8;
 }
 
 .red {
