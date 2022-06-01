@@ -21,3 +21,19 @@
 .some-text {
     color: darkslateblue;
 }
+
+.purple {
+    background: mediumpurple;
+}
+
+.purple-text {
+    color: black;
+}
+
+.steel {
+    background: lightsteelblue;
+}
+
+.steel-text {
+    color: black;
+}

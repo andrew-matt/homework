@@ -10,6 +10,6 @@
     border: 2px solid darkorange;
 }
 
-.radio:checked {
+.radioChecked {
     background-color: darkorange;
 }
